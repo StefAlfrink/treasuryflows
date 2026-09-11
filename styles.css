@@ -836,6 +836,15 @@ p {
   background: var(--sage);
 }
 
+.availability.is-busy {
+  color: var(--copper-dark);
+  background: var(--cream-2);
+}
+
+.availability.is-busy::before {
+  background: var(--copper);
+}
+
 /* Footer */
 
 footer.site-footer {
