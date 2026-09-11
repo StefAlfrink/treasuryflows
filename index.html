@@ -5,13 +5,20 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>TreasuryFlows | Interim Treasury &amp; Investment Operations Consulting</title>
 <meta name="description" content="TreasuryFlows — expert interim treasury and investment operations consulting. Streamlined, automated, and efficient.">
+<meta property="og:title" content="TreasuryFlows — Interim Treasury &amp; Investment Operations Consulting">
+<meta property="og:description" content="Bridging treasury operations and technology — cash management, payment flows, and system integrations, delivered interim.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="index.html">TreasuryFlows</a>
+    <a class="brand" href="index.html"><span class="brand-mark">TF</span>TreasuryFlows</a>
     <nav class="site-nav">
       <ul>
         <li><a href="index.html" class="active">Home</a></li>
@@ -20,67 +27,143 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
   </div>
 </header>
 
 <main>
 
   <section class="hero">
-    <h1>TreasuryFlows</h1>
-    <p class="tagline">Interim Intelligence: Streamlined, Automated, and Efficient</p>
-    <p class="lede">Expert treasury and investment operations consulting — for interim assignments and focused projects. TreasuryFlows helps treasury teams run leaner, more automated, and more reliable operations, from front-office deal handling through to bank connectivity and regulatory change.</p>
-    <a class="btn" href="services.html">View Services</a>
-  </section>
-
-  <section>
-    <h2>What I Help With</h2>
-    <div class="card-grid">
-      <div class="card">
-        <h3>Front Office</h3>
-        <ul>
-          <li>Deal handling</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Back Office &amp; Cash Management</h3>
-        <ul>
-          <li>Payments</li>
-          <li>Cashpool management</li>
-          <li>Static &amp; market data</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Risk &amp; Accounting</h3>
-        <ul>
-          <li>GL templates &amp; accounting rules</li>
-          <li>Accounting reporting</li>
-          <li>Valuations</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Admin &amp; IT</h3>
-        <ul>
-          <li>Reporting automation</li>
-          <li>Interface configuration</li>
-          <li>System upgrades</li>
-        </ul>
-      </div>
-      <div class="card">
-        <h3>Banks &amp; Payments</h3>
-        <ul>
-          <li>Bank portal administration</li>
-          <li>P27 / ISO 20022 / SWIFT</li>
-        </ul>
+    <svg class="hero-flows" viewBox="0 0 600 440" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M20 90 C 180 40, 260 160, 420 110 S 600 60, 600 60" stroke="#b6754a" stroke-width="1.6"/>
+      <path d="M0 220 C 160 260, 260 150, 420 210 S 590 260, 600 230" stroke="#3d5975" stroke-width="1.6"/>
+      <path d="M40 340 C 200 300, 280 400, 440 340 S 600 300, 600 320" stroke="#64826b" stroke-width="1.6"/>
+    </svg>
+    <div class="hero-inner reveal">
+      <p class="eyebrow">TreasuryFlows — Stef Alfrink</p>
+      <h1>Interim Intelligence: Streamlined, Automated, and Efficient</h1>
+      <p class="lede">Expert treasury and investment operations consulting for interim assignments and focused projects. I bridge treasury operations and technology — optimizing cash management, payment flows, and system integrations for corporate treasuries and banks.</p>
+      <div class="cta-row">
+        <a class="btn" href="services.html">View Services</a>
+        <a class="btn btn-ghost" href="contact.html">Get in touch</a>
       </div>
     </div>
-    <p style="margin-top: 1.5rem;"><a href="services.html">See the full list of services &rarr;</a></p>
+  </section>
+
+  <section class="stats reveal reveal-stagger">
+    <div class="stat">
+      <span class="stat-num" data-count="8">0<span class="suffix">+</span></span>
+      <p>Years in treasury consulting</p>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="5">0<span class="suffix">+</span></span>
+      <p>Treasury management systems</p>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="5">0</span>
+      <p>Enterprise &amp; bank engagements</p>
+    </div>
+    <div class="stat">
+      <span class="stat-num" data-count="3">0</span>
+      <p>Languages fluent</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head reveal">
+      <p class="eyebrow">What I help with</p>
+      <h2>Treasury operations, end to end</h2>
+      <p>From front-office deal handling to the bank connectivity behind it — interim support wherever your treasury function needs it most.</p>
+    </div>
+    <div class="card-grid reveal-stagger">
+      <div class="card reveal">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg>
+        </div>
+        <h3>Front Office</h3>
+        <p>Deal handling across the trade lifecycle.</p>
+        <a class="card-link" href="services.html#front-office">Learn more
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="4" rx="1"/><rect x="3" y="13" width="18" height="4" rx="1"/></svg>
+        </div>
+        <h3>Back Office &amp; Cash</h3>
+        <p>Payments, cashpool management, static &amp; market data.</p>
+        <a class="card-link" href="services.html#back-office">Learn more
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6z"/></svg>
+        </div>
+        <h3>Risk &amp; Accounting</h3>
+        <p>GL templates, accounting rules, reporting &amp; valuations.</p>
+        <a class="card-link" href="services.html#risk-accounting">Learn more
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z"/></svg>
+        </div>
+        <h3>Admin &amp; IT</h3>
+        <p>Report automation, interfaces, (patch) upgrades.</p>
+        <a class="card-link" href="services.html#admin-it">Learn more
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+      <div class="card reveal">
+        <div class="card-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 10l9-6 9 6"/><path d="M5 10v9h14v-9"/><path d="M10 19v-6h4v6"/></svg>
+        </div>
+        <h3>Banks &amp; Payments</h3>
+        <p>Bank portal admin, P27 / ISO 20022, SWIFT.</p>
+        <a class="card-link" href="services.html#banks-payments">Learn more
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section class="client-strip reveal">
+    <p class="eyebrow">Recent engagements</p>
+    <ul class="client-list">
+      <li>Klarna</li>
+      <li>EP Bank</li>
+      <li>Arelion</li>
+      <li>Lantmännen</li>
+      <li>SkySparc</li>
+    </ul>
+  </section>
+
+  <section class="section-tight reveal">
+    <div class="cta-banner">
+      <div>
+        <h2>Have a treasury system that needs attention?</h2>
+        <p>Whether it's an upgrade, an integration, or day-to-day operations — let's talk about what interim support could look like.</p>
+      </div>
+      <a class="btn" href="contact.html">Get in touch</a>
+    </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <p>&copy; 2026 TreasuryFlows — Alfrink Fridland Consulting AB, Stockholm</p>
+  <div class="footer-inner">
+    <p>&copy; 2026 TreasuryFlows — Alfrink Fridland Consulting AB, Stockholm</p>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/stef-alfrink/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="mailto:stef@treasuryflows.com">Email</a></li>
+    </ul>
+  </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>

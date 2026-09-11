@@ -5,13 +5,17 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Contact | TreasuryFlows</title>
 <meta name="description" content="Get in touch with TreasuryFlows for interim treasury and investment operations consulting.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
 <header class="site-header">
   <div class="header-inner">
-    <a class="brand" href="index.html">TreasuryFlows</a>
+    <a class="brand" href="index.html"><span class="brand-mark">TF</span>TreasuryFlows</a>
     <nav class="site-nav">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -20,30 +24,83 @@
         <li><a href="contact.html" class="active">Contact</a></li>
       </ul>
     </nav>
+    <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span>
+    </button>
   </div>
 </header>
 
 <main>
 
-  <section>
-    <h1>Contact</h1>
-    <p class="lede">Available for interim assignments and treasury projects. Get in touch to discuss your needs.</p>
+  <section class="section-tight reveal">
+    <p class="eyebrow">Contact</p>
+    <h1>Let's talk treasury</h1>
+    <p class="lede">Available for interim assignments and treasury projects. Get in touch to discuss what your team needs.</p>
   </section>
 
-  <section>
-    <ul class="contact-details">
-      <li><span class="label">Email</span> <a href="mailto:stef@treasuryflows.com">stef@treasuryflows.com</a></li>
-      <li><span class="label">Phone</span> <a href="tel:+46722125560">+46 7 2212 5560</a></li>
-      <li><span class="label">Location</span> TreasuryFlows, Stockholm</li>
-      <li><span class="label">LinkedIn</span> <a href="https://www.linkedin.com/in/stef-alfrink/" target="_blank" rel="noopener">linkedin.com/in/stef-alfrink</a></li>
-    </ul>
+  <section class="section-tight reveal">
+    <div class="contact-grid">
+      <div class="contact-card">
+        <span class="availability">Currently available for new assignments</span>
+        <ul class="contact-details">
+          <li>
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg>
+            </span>
+            <span>
+              <span class="label">Email</span>
+              <a href="mailto:stef@treasuryflows.com">stef@treasuryflows.com</a>
+            </span>
+          </li>
+          <li>
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            </span>
+            <span>
+              <span class="label">Phone</span>
+              <a href="tel:+46722125560">+46 7 2212 5560</a>
+            </span>
+          </li>
+          <li>
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/></svg>
+            </span>
+            <span>
+              <span class="label">Location</span>
+              TreasuryFlows, Stockholm
+            </span>
+          </li>
+          <li>
+            <span class="contact-icon">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-4 0v7h-4v-7a6 6 0 016-6z"/><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/></svg>
+            </span>
+            <span>
+              <span class="label">LinkedIn</span>
+              <a href="https://www.linkedin.com/in/stef-alfrink/" target="_blank" rel="noopener">linkedin.com/in/stef-alfrink</a>
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <div class="reveal">
+        <h2>What happens next</h2>
+        <p style="color: var(--text-muted);">Send a note with a short outline of the assignment — system(s) involved, scope, and rough timing — and I'll come back with availability and next steps, usually within a day or two.</p>
+      </div>
+    </div>
   </section>
 
 </main>
 
 <footer class="site-footer">
-  <p>&copy; 2026 TreasuryFlows — Alfrink Fridland Consulting AB, Stockholm</p>
+  <div class="footer-inner">
+    <p>&copy; 2026 TreasuryFlows — Alfrink Fridland Consulting AB, Stockholm</p>
+    <ul class="footer-links">
+      <li><a href="https://www.linkedin.com/in/stef-alfrink/" target="_blank" rel="noopener">LinkedIn</a></li>
+      <li><a href="mailto:stef@treasuryflows.com">Email</a></li>
+    </ul>
+  </div>
 </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
