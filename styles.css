@@ -1,24 +1,24 @@
 /* TreasuryFlows — shared styles */
 
 :root {
-  --ink: #f2ede2;
-  --ink-2: #dcd5c6;
-  --ink-soft: #9aa7b2;
-  --cream: #14181f;
-  --cream-2: #1d232c;
-  --paper: #1a1f27;
-  --copper: #d99a6c;
-  --copper-dark: #e0ac85;
-  --sage: #8fb098;
-  --sage-tint: #182420;
-  --text: #ccd2d8;
-  --text-muted: #8790a0;
-  --border: #2c333d;
-  --border-soft: #363f4b;
+  --ink: #f0ede6;
+  --ink-2: #d9d4c8;
+  --ink-soft: #aab5c0;
+  --cream: #1e2732;
+  --cream-2: #29333f;
+  --paper: #252e3a;
+  --copper: #e0a878;
+  --copper-dark: #eab68a;
+  --sage: #93b79c;
+  --sage-tint: #212d28;
+  --text: #ccd3da;
+  --text-muted: #93a0ac;
+  --border: #384454;
+  --border-soft: #445264;
   --max-width: 1080px;
   --radius: 10px;
-  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
-  --shadow-md: 0 18px 40px -16px rgba(0, 0, 0, 0.55);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
+  --shadow-md: 0 18px 40px -16px rgba(0, 0, 0, 0.4);
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -88,7 +88,7 @@ header.site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(20, 24, 31, 0.86);
+  background: rgba(30, 39, 50, 0.86);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
@@ -310,37 +310,19 @@ p {
   position: relative;
   padding: 5rem 0 4rem;
   overflow: hidden;
+  background:
+    radial-gradient(60% 55% at 82% 8%, rgba(224, 168, 120, 0.16), transparent 60%),
+    radial-gradient(45% 45% at 96% 60%, rgba(147, 183, 156, 0.12), transparent 65%);
 }
 
-.hero-flows {
+.hero-network {
   position: absolute;
-  top: -10%;
-  right: -8%;
-  width: 620px;
-  max-width: 65vw;
-  opacity: 0.55;
-  pointer-events: none;
+  inset: 0;
+  width: 100%;
+  height: 100%;
   z-index: 0;
-}
-
-.hero-flows path {
-  stroke-dasharray: 6 10;
-  animation: flow 26s linear infinite;
-}
-
-.hero-flows path:nth-child(2) {
-  animation-duration: 32s;
-  animation-direction: reverse;
-}
-
-.hero-flows path:nth-child(3) {
-  animation-duration: 20s;
-}
-
-@keyframes flow {
-  to {
-    stroke-dashoffset: -400;
-  }
+  opacity: 0.7;
+  pointer-events: none;
 }
 
 .hero-inner {
@@ -943,8 +925,8 @@ footer.site-footer {
     align-items: flex-start;
   }
 
-  .hero-flows {
-    opacity: 0.35;
+  .hero-network {
+    opacity: 0.45;
   }
 }
 
