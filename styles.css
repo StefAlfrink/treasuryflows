@@ -1,23 +1,24 @@
 /* TreasuryFlows — shared styles */
 
 :root {
-  --ink: #14273f;
-  --ink-2: #1e3654;
-  --ink-soft: #3d5975;
-  --cream: #faf7f1;
-  --cream-2: #f1ead9;
-  --paper: #ffffff;
-  --copper: #b6754a;
-  --copper-dark: #93582f;
-  --sage: #64826b;
-  --text: #26303c;
-  --text-muted: #5c6773;
-  --border: #e7ded0;
-  --border-soft: #eee7da;
+  --ink: #f2ede2;
+  --ink-2: #dcd5c6;
+  --ink-soft: #9aa7b2;
+  --cream: #14181f;
+  --cream-2: #1d232c;
+  --paper: #1a1f27;
+  --copper: #d99a6c;
+  --copper-dark: #e0ac85;
+  --sage: #8fb098;
+  --sage-tint: #182420;
+  --text: #ccd2d8;
+  --text-muted: #8790a0;
+  --border: #2c333d;
+  --border-soft: #363f4b;
   --max-width: 1080px;
   --radius: 10px;
-  --shadow-sm: 0 1px 2px rgba(20, 39, 63, 0.06);
-  --shadow-md: 0 12px 32px -16px rgba(20, 39, 63, 0.28);
+  --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.35);
+  --shadow-md: 0 18px 40px -16px rgba(0, 0, 0, 0.55);
   --ease: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -87,7 +88,7 @@ header.site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(250, 247, 241, 0.86);
+  background: rgba(20, 24, 31, 0.86);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
@@ -559,7 +560,7 @@ p {
 }
 
 .cta-banner p {
-  color: #cdd8e3;
+  color: #4a5361;
   margin-bottom: 0;
   max-width: 440px;
 }
@@ -716,7 +717,7 @@ p {
   font-size: 0.8rem;
   font-weight: 600;
   color: var(--sage);
-  background: #eef2ec;
+  background: var(--sage-tint);
   border-radius: 999px;
   padding: 0.25rem 0.7rem;
 }
@@ -822,7 +823,7 @@ p {
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--sage);
-  background: #eef2ec;
+  background: var(--sage-tint);
   border-radius: 999px;
   padding: 0.5rem 1rem;
   margin-bottom: 1.5rem;
