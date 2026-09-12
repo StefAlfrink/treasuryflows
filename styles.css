@@ -486,6 +486,19 @@ p {
   vertical-align: middle;
 }
 
+.client-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--border-soft);
+  text-underline-offset: 3px;
+  transition: color 0.2s var(--ease), text-decoration-color 0.2s var(--ease);
+}
+
+.client-link:hover {
+  color: var(--copper-dark);
+  text-decoration-color: var(--copper);
+}
+
 /* Buttons / CTA */
 
 .btn {
