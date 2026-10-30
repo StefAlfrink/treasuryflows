@@ -1,20 +1,20 @@
 /* TreasuryFlows — shared styles */
 
 :root {
-  --ink: #f0ede6;
-  --ink-2: #d9d4c8;
-  --ink-soft: #aab5c0;
-  --cream: #1e2732;
-  --cream-2: #29333f;
-  --paper: #252e3a;
-  --copper: #e0a878;
-  --copper-dark: #eab68a;
-  --sage: #93b79c;
-  --sage-tint: #212d28;
-  --text: #ccd3da;
-  --text-muted: #93a0ac;
-  --border: #384454;
-  --border-soft: #445264;
+  --ink: #f8f6f1;
+  --ink-2: #e2ddd1;
+  --ink-soft: #c5cdd6;
+  --cream: #2d3b4e;
+  --cream-2: #3b4c61;
+  --paper: #364659;
+  --copper: #efbb8c;
+  --copper-dark: #f4c9a2;
+  --sage: #a6cbb0;
+  --sage-tint: #33493f;
+  --text: #e3e8ed;
+  --text-muted: #bcc7d1;
+  --border: #4d5f76;
+  --border-soft: #5c7089;
   --max-width: 1080px;
   --radius: 10px;
   --shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.25);
@@ -88,7 +88,7 @@ header.site-header {
   position: sticky;
   top: 0;
   z-index: 50;
-  background: rgba(30, 39, 50, 0.86);
+  background: rgba(45, 59, 78, 0.88);
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-bottom: 1px solid transparent;
